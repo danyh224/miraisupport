@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1920" height="1080" viewBox="0 0 1920 1080" fill="none">
+  <defs>
+    <linearGradient id="sky" x1="960" y1="0" x2="960" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#101b3d"/>
+      <stop offset=".48" stop-color="#4c397a"/>
+      <stop offset="1" stop-color="#f07b79"/>
+    </linearGradient>
+    <linearGradient id="sun" x1="1310" y1="220" x2="1310" y2="600" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#ffe5ae"/>
+      <stop offset="1" stop-color="#ff9b86"/>
+    </linearGradient>
+    <linearGradient id="haze" x1="960" y1="470" x2="960" y2="850" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f4a08f" stop-opacity=".04"/>
+      <stop offset="1" stop-color="#ff9c95" stop-opacity=".45"/>
+    </linearGradient>
+    <linearGradient id="building" x1="0" y1="460" x2="0" y2="1080" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#202849"/>
+      <stop offset="1" stop-color="#101629"/>
+    </linearGradient>
+    <pattern id="windows" width="42" height="50" patternUnits="userSpaceOnUse">
+      <rect x="10" y="12" width="9" height="18" rx="2" fill="#91cfff" fill-opacity=".58"/>
+      <rect x="26" y="12" width="8" height="18" rx="2" fill="#ffc98f" fill-opacity=".5"/>
+    </pattern>
+    <pattern id="fineWindows" width="30" height="36" patternUnits="userSpaceOnUse">
+      <rect x="8" y="8" width="5" height="12" rx="1" fill="#a8d7ff" fill-opacity=".55"/>
+      <rect x="19" y="8" width="5" height="12" rx="1" fill="#ffd09c" fill-opacity=".42"/>
+    </pattern>
+  </defs>
+  <path fill="url(#sky)" d="M0 0h1920v1080H0z"/>
+  <circle cx="1310" cy="390" r="190" fill="url(#sun)" fill-opacity=".88"/>
+  <path d="M0 600c180-54 291-39 448 4s257 45 434-1 312-52 481 5 341 42 557-15v487H0V600Z" fill="url(#haze)"/>
+  <path d="M0 690c158-81 278-85 437-8 119 58 207 48 335-15 121-60 253-88 394-15 112 58 229 77 346 24 146-66 269-57 408-6v410H0V690Z" fill="#282d50" fill-opacity=".76"/>
+  <path d="M0 785c180-42 295-26 416 25 125 52 230 42 369-19 142-63 264-68 397-13 144 59 245 62 376 6 127-54 233-52 362-16v312H0V785Z" fill="#1c2442"/>
+  <g fill="url(#building)">
+    <path d="M38 616h102v464H38zM152 550h144v530H152zM314 650h95v430h-95zM432 526h132v554H432zM586 604h88v476h-88zM704 474h144v606H704zM874 613h111v467H874zM1011 554h120v526h-120zM1155 641h93v439h-93zM1270 500h145v580h-145zM1440 603h105v477h-105zM1564 452h155v628h-155zM1744 574h130v506h-130z"/>
+    <path d="M152 550l72-53 72 53H152ZM432 526l66-73 66 73H432ZM704 474l72-104 72 104H704ZM1270 500l72-90 73 90h-145ZM1564 452l77-86 78 86h-155Z"/>
+  </g>
+  <g fill="url(#windows)" opacity=".8">
+    <path d="M38 616h102v464H38zM152 550h144v530H152zM314 650h95v430h-95zM432 526h132v554H432zM586 604h88v476h-88zM874 613h111v467H874zM1011 554h120v526h-120zM1155 641h93v439h-93zM1440 603h105v477h-105zM1744 574h130v506h-130z"/>
+  </g>
+  <g fill="url(#fineWindows)" opacity=".75">
+    <path d="M704 474h144v606H704zM1270 500h145v580h-145zM1564 452h155v628h-155z"/>
+  </g>
+  <!-- Tokyo Tower silhouette -->
+  <g fill="#f49b8a" fill-opacity=".9">
+    <path d="M960 503h12l10 79 42 185h-116l42-185 10-79Z"/>
+    <path d="M916 764h100l24 17H892l24-17ZM900 820h132l22 18H878l22-18ZM884 897h164l27 21H857l27-21Z"/>
+    <path d="M962 503h8V337h4v-44h-3v-22h-3v-29h-2v29h-3v22h-3v44h4v166Z"/>
+    <path d="M945 580h46v8h-46zM931 651h75v8h-75zM914 735h108v8H914z"/>
+  </g>
+  <path d="M0 1000c333-37 635-30 960 0s628 36 960 0v80H0v-80Z" fill="#0c1428" fill-opacity=".85"/>
+  <g fill="#ffd79f" fill-opacity=".62">
+    <circle cx="112" cy="955" r="3"/><circle cx="256" cy="922" r="3"/><circle cx="376" cy="973" r="3"/><circle cx="551" cy="929" r="3"/><circle cx="702" cy="984" r="3"/><circle cx="1164" cy="953" r="3"/><circle cx="1365" cy="980" r="3"/><circle cx="1501" cy="927" r="3"/><circle cx="1812" cy="972" r="3"/>
+  </g>
+</svg>

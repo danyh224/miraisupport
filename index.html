@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>MIRAI SUPPORT</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  </head>
+
+  <body>
+    <!-- Loader -->
+    <div id="loader">
+      <h1>MIRAI SUPPORT</h1>
+    </div>
+
+    <!-- Progress Bar -->
+    <div id="progressBar"></div>
+
+    <!-- Background Effects -->
+    <div class="blob blob1"></div>
+    <div class="blob blob2"></div>
+    <div class="blob blob3"></div>
+
+    <!-- Navbar -->
+    <nav id="navbar">
+      <div class="logo">MIRAI SUPPORT</div>
+
+      <ul class="nav-links">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#problem">Problem</a></li>
+        <li><a href="#solution">Solution</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#finance">Finance</a></li>
+        <li><a href="#analysis">Analytics</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <button id="themeToggle">🌙</button>
+    </nav>
+
+    <!-- Hero -->
+
+    <section id="hero" class="hero">
+      <div class="overlay"></div>
+
+      <div class="hero-content">
+        <h1 id="typed"></h1>
+
+        <p>未来を支える外国人総合サポートサービス</p>
+
+        <a href="#problem" class="btn"> Start Presentation </a>
+      </div>
+    </section>
+
+    <!-- KPI -->
+
+    <section class="kpi-section">
+      <div class="kpi-card glass">
+        <h2 class="counter" data-target="1000">0</h2>
+
+        <p>起業資金（万円）</p>
+      </div>
+
+      <div class="kpi-card glass">
+        <h2 class="counter" data-target="120">0</h2>
+
+        <p>月間売上（万円）</p>
+      </div>
+
+      <div class="kpi-card glass">
+        <h2 class="counter" data-target="17">0</h2>
+
+        <p>営業利益（万円）</p>
+      </div>
+
+      <div class="kpi-card glass">
+        <h2 class="counter" data-target="9">0</h2>
+
+        <p>純利益（万円）</p>
+      </div>
+    </section>
+
+    <!-- Problem -->
+
+    <section id="problem">
+      <h2 data-aos="fade-up">Problem</h2>
+
+      <div class="grid">
+        <div class="glass card" data-aos="zoom-in">
+          <i class="fa-solid fa-language"></i>
+
+          <h3>言語の壁</h3>
+
+          <p>日本語コミュニケーションの難しさ</p>
+        </div>
+
+        <div class="glass card" data-aos="zoom-in">
+          <i class="fa-solid fa-house"></i>
+
+          <h3>住宅契約</h3>
+
+          <p>外国人向け住宅探しの課題</p>
+        </div>
+
+        <div class="glass card" data-aos="zoom-in">
+          <i class="fa-solid fa-briefcase"></i>
+
+          <h3>就職活動</h3>
+
+          <p>企業とのマッチング不足</p>
+        </div>
+
+        <div class="glass card" data-aos="zoom-in">
+          <i class="fa-solid fa-circle-info"></i>
+
+          <h3>生活情報不足</h3>
+
+          <p>必要な情報へのアクセス不足</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solution -->
+
+    <section id="solution">
+      <h2 data-aos="fade-up">Solution</h2>
+
+      <div class="glass large-card" data-aos="fade-up">
+        MIRAI SUPPORTは外国人向けに 生活支援・住宅支援・就職支援・キャリア支援を
+        ワンストップで提供します。
+      </div>
+    </section>
+
+    <!-- Services -->
+
+    <section id="services">
+      <h2 data-aos="fade-up">Services</h2>
+
+      <div class="grid">
+        <div class="glass card" data-aos="flip-left">
+          <i class="fa-solid fa-graduation-cap"></i>
+
+          <h3>留学生支援</h3>
+
+          <p>学校紹介・ビザ相談</p>
+        </div>
+
+        <div class="glass card" data-aos="flip-left">
+          <i class="fa-solid fa-house"></i>
+
+          <h3>生活支援</h3>
+
+          <p>住宅・銀行口座・携帯契約</p>
+        </div>
+
+        <div class="glass card" data-aos="flip-left">
+          <i class="fa-solid fa-briefcase"></i>
+
+          <h3>就職支援</h3>
+
+          <p>履歴書添削・面接対策</p>
+        </div>
+
+        <div class="glass card" data-aos="flip-left">
+          <i class="fa-solid fa-chart-line"></i>
+
+          <h3>キャリア相談</h3>
+
+          <p>転職・将来設計</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Market -->
+
+    <section id="market">
+      <h2 data-aos="fade-up">Market Opportunity</h2>
+
+      <div class="glass large-card">
+        外国人居住者数の増加により、
+        生活支援・就職支援市場は今後も拡大が期待されます。
+      </div>
+    </section>
+
+    <!-- Business Model -->
+
+    <section>
+      <h2 data-aos="fade-up">Business Model</h2>
+
+      <div class="grid">
+        <div class="glass card">学校提携</div>
+
+        <div class="glass card">企業提携</div>
+
+        <div class="glass card">求人紹介</div>
+
+        <div class="glass card">コンサルティング</div>
+      </div>
+    </section>
+
+    <!-- Funding -->
+
+    <section id="finance">
+      <h2 data-aos="fade-up">資金計画</h2>
+
+      <div class="glass table-container">
+        <table>
+          <tr>
+            <th>項目</th>
+            <th>金額</th>
+          </tr>
+
+          <tr>
+            <td>保証金・内装工事</td>
+            <td>300万円</td>
+          </tr>
+
+          <tr>
+            <td>設備・備品</td>
+            <td>330万円</td>
+          </tr>
+
+          <tr>
+            <td>運転資金</td>
+            <td>370万円</td>
+          </tr>
+
+          <tr>
+            <th>合計</th>
+            <th>1000万円</th>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- Revenue -->
+
+    <section>
+      <h2 data-aos="fade-up">Revenue Plan</h2>
+
+      <div class="glass table-container">
+        <table>
+          <tr>
+            <th>項目</th>
+            <th>金額</th>
+          </tr>
+
+          <tr>
+            <td>売上高</td>
+            <td>120万円</td>
+          </tr>
+
+          <tr>
+            <td>売上原価</td>
+            <td>36万円</td>
+          </tr>
+
+          <tr>
+            <td>経費</td>
+            <td>67万円</td>
+          </tr>
+
+          <tr>
+            <td>利益</td>
+            <td>17万円</td>
+          </tr>
+
+          <tr>
+            <td>借入返済</td>
+            <td>8万円</td>
+          </tr>
+
+          <tr>
+            <th>純利益</th>
+            <th>9万円</th>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- Analytics -->
+
+    <section id="analysis">
+      <h2 data-aos="fade-up">Analytics Dashboard</h2>
+
+      <div class="chart-grid">
+        <div class="glass chart-card">
+          <canvas id="doughnutChart"></canvas>
+        </div>
+
+        <div class="glass chart-card">
+          <canvas id="barChart"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+
+    <section id="team">
+      <h2 data-aos="fade-up">Our Team</h2>
+
+      <div class="team-grid">
+        <div class="glass team-card">
+          <div class="avatar">DA</div>
+
+          <h3>NGUYEN DUY ANH</h3>
+
+          <p>26D39</p>
+
+          <span>代表取締役社長</span>
+        </div>
+
+        <div class="glass team-card">
+          <div class="avatar">PT</div>
+
+          <h3>LE PHUOC TRUNG</h3>
+
+          <p>26D18</p>
+
+          <span>企画担当</span>
+        </div>
+
+        <div class="glass team-card">
+          <div class="avatar">LM</div>
+
+          <h3>LINXIANGMAO</h3>
+
+          <p>26D46</p>
+
+          <span>営業担当</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Roadmap -->
+
+    <section id="roadmap">
+      <h2 data-aos="fade-up">Roadmap</h2>
+
+      <div class="timeline">
+        <div class="glass timeline-item">2026 設立</div>
+
+        <div class="glass timeline-item">2027 提携企業50社</div>
+
+        <div class="glass timeline-item">2028 利用者500人</div>
+
+        <div class="glass timeline-item">2030 全国展開</div>
+      </div>
+    </section>
+
+    <!-- Vision -->
+
+    <section>
+      <h2 data-aos="fade-up">Vision</h2>
+
+      <div class="glass large-card">外国人が安心して暮らせる社会を創る</div>
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+      <h2 data-aos="fade-up">Contact Us</h2>
+
+      <form class="glass contact-form" id="contactForm">
+        <input
+          type="text"
+          name="name"
+          placeholder="お名前"
+          aria-label="お名前"
+          autocomplete="name"
+          required
+        />
+
+        <input
+          type="email"
+          name="email"
+          placeholder="Email"
+          aria-label="Email"
+          autocomplete="email"
+          required
+        />
+
+        <textarea
+          name="message"
+          placeholder="Message"
+          aria-label="Message"
+          required
+        ></textarea>
+
+        <button type="submit">送信</button>
+        <p
+          class="form-status"
+          id="formStatus"
+          role="status"
+          aria-live="polite"
+        ></p>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2026 MIRAI SUPPORT</p>
+    </footer>
+
+    <button id="toTop">↑</button>
+
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
